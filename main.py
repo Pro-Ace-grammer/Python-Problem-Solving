@@ -70,4 +70,3 @@ Programs to Implement LIST COMPREHENSION ONLY
 
 #to check if the given number is even or odd without using modulous
 
- 
