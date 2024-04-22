@@ -1,6 +1,6 @@
-# d1={'(':')','{':'}','[':']'}
-# val = '{'
-# print(d1[val])
+'''
+Merge two lists of integers in the ascending order
+'''
 
 list1 = [1,3,4]
 list2 = [1,2,5]
