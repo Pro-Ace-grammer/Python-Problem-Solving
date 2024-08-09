@@ -43,3 +43,34 @@ while i <= n:
     a,b = b, a+b
     i+=1
 '''
+
+
+
+n = int(input())
+r_arr =1
+
+for j in range(1,n):
+    print('  '*(n*4),end='')
+    print('* '*r_arr)
+    r_arr+=1
+r_arr = n
+for i in range(1,n+1):
+    print('  '*(n-i),end='')
+    print('* '*i,end='')
+    if i == n:
+        print('e '*n,end='')
+    else:
+        print('  '*n,end='')
+
+    print('* '*n,end='')
+    if i == 1:
+        print('e '*n,end='')
+    else:
+        print('  '*n,end='')
+    print('* '*r_arr)
+    r_arr-=1
+
+for i in range(1,n):
+    print('  '*i,end='')
+    print('* '*(n-i))
+
