@@ -92,4 +92,4 @@ for i in range(1,rows):
     if i<mid:
         print('e '*i,end='')
 
-    print()
+    print()+5
