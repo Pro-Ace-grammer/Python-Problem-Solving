@@ -1,6 +1,16 @@
+'''
+INPUT:
 a = 'abcd'
 b = 'efgh'
-op = ''
+
+OUTPUT:
+op = 'ahbgcfde'
+'''
+
+
+a = 'abcd'
+b = 'efgh'
+op = 'ahbgcfde'
 i=0
 j = len(b)-1
 while i< len(a):
