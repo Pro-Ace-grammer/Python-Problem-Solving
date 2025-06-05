@@ -23,5 +23,5 @@ elif num>= 20:
 num %= 10  
 if num>= 1 and num<= 9:  
     words += ones[num] + " "  
-return words.strip()  
+# return words.strip()  
 print(words) 
