@@ -77,7 +77,7 @@ for i in range(1,rows):
 
 
     if(i>=mid and i<=up_mid):
-        print('* '*n, end='')
+        print('c '*n, end='')
     else:
         print('  '*n, end='')
 
@@ -92,4 +92,4 @@ for i in range(1,rows):
     if i<mid:
         print('e '*i,end='')
 
-    print()+5
+    print()
